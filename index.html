@@ -1,1 +1,207 @@
-html:5
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ulrike Schwertberger</title>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/foundation.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+  <meta property="og:site_name" content="Ulrike Schwertberger"> 
+  <meta property="og:title" content="Ulrike Schwertberger">
+  <meta property="og:description" content="Ulrike Schwertberger, Design, Web">
+
+  <script src="assets/js/vendor/modernizr.js"></script>
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/jquery.mixitup.js"></script>
+  <script src="assets/js/script.js"></script>
+  
+</head>
+<body>
+
+	<div class="row">
+    <div class="contain-to-grid sticky">
+      <nav class="top-bar" data-topbar data-options="sticky_on: large">
+        <ul class="title-area">
+          <li class="name">
+            <a href="index.html">
+          
+             <h1>Ulrike Schwertberger</h1>
+             <h2>Design&amp;Web</h2>
+           </a>
+         </li>
+         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+       </ul>
+
+       <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="active"><a href="#portfolio">Work</a></li>
+          <li class><a href="#about">About</a></li>
+          <li class><a href="#contact">Contact</a></li>
+        </ul>
+
+      </section>
+    </nav>
+  </div>
+
+  <div class="header">
+    <img alt="" data-interchange="[assets/img/mobil/leiste.png, (small)], [assets/img/leiste_alt.png, (only screen and (min-width: 34em))]" src=""/>
+    <h1>I'm a designer and front-end<br/> developer based in Vienna.</h1>
+  </div>
+</div>
+
+
+<span id="portfolio" class="subnav"></span>
+<div class="row">
+<div class="portfolio large-12 columns ">
+
+<div class="filterContainer row">
+    <div class="small-4 columns"><div class="filter btn" data-filter="all">All</div></div>
+    <div class="small-4 columns"><div class="filter btn" data-filter=".print">Print</div></div>
+    <div class="small-4 columns"><div class="filter btn" data-filter=".web">Web</div></div>
+</div>
+
+  <ul id="Container" class=" small-block-grid-2 medium-block-grid-3">
+ 
+  <li class="mix print" data-myorder="2">
+  <a href="projekt1.html">
+  <img src="assets/img/cd/thumb.png"/>
+  <div class="container"><div class="overlay"><div class="align"><h2>Digital Witness</h2></div></div></div>
+  </a>
+  </li>
+ 
+   <li class="mix web" data-myorder="2">
+  <a href="projekt2.html">
+  <img src="assets/img/uase/thumb.png"/>
+  <div class="container"><div class="overlay"><div class="align"><h2>uase</h2></div></div></div>
+  </a>
+  </li>
+  
+   <li class="mix print" data-myorder="2">
+  <a href="projekt1.html">
+  <img src="assets/img/flyer/thumb.png"/>
+  <div class="container"><div class="overlay"><div class="align"><h2>Flyer</h2></div></div></div>
+  </a>
+  </li>
+
+     <li class="mix web" data-myorder="2">
+  <a href="projekt2.html">
+  <img src="assets/img/cd/thumb.png"/>
+  <div class="container"><div class="overlay"><div class="align"><h2>Hallo</h2></div></div></div>
+  </a>
+  </li>
+
+    <li class="mix print web" data-myorder="2">
+  <a href="projekt1.html">
+  <img src="assets/img/cd/thumb.png"/>
+  <div class="container"><div class="overlay"><div class="align"><h2>Hallo</h2></div></div></div>
+  </a>
+  </li>
+
+    <li class="mix print web" data-myorder="2">
+  <a href="projekt2.html">
+  <img src="assets/img/cd/thumb.png"/>
+  <div class="container"><div class="overlay"><div class="align"><h2>Hallo</h2></div></div></div>
+  </a>
+  </li>
+ 
+</ul>
+
+</div>
+
+  </div>
+</div>
+
+
+<span id="about" class="subnav"></span>
+<div class="row about">
+  <div class="large-6 columns"> 
+    <h3>About</h3>
+    <p>
+      I'm currently studying Media Technology at St. Pölten University of Apllied Sciences. My passion is good design and functionality (??)</p> 
+      <p>Feel free to contact me as I'm currently available for new projects.</p>
+      <a target="_blank" href="pdf/resume.pdf" class="btn">My Resume</a>
+    </div>
+
+    <div class="large-6 columns">
+     <img alt="An image of Ulrike Schwertberger" data-interchange="[assets/img/mobil/about.png, (small)], [assets/img/about-medium.png, (medium)], [assets/img/about.png, (only screen and (min-width: 53.125em))]" src=""/>
+   </div>
+ </div>
+
+ <span id="contact" class="subnav"></span>
+
+ <div class="row contact" id="contact_form">  	
+
+   <div class="large-12 columns">
+    <h3>Contact me</h3>
+    <div class="results"></div></div>
+    <div id="contact_body">
+      <div class="large-4 columns">
+       <input type="text" placeholder="name*" name="name" required/>
+       <input type="text" placeholder="e-mail*" name="email" required/>
+       <input type="text" placeholder="subject" name="subject" />
+     </div>
+
+     <div class="large-7 columns">
+       <textarea placeholder="message*" name="message" required></textarea>
+       <a class="btn" id="submit">Get in touch</a>
+     </div> 
+
+   </div>
+ </div>
+
+ <span id="imprint" class="subnav"></span>
+ <div class="row imprint">
+  <div class="small-10 columns">
+   <h3>Imprint</h3>
+ </div>
+
+ <div class="small-2 columns">
+  <a class="toggle-imprint"><h4>X</h4></a>
+</div>
+
+<div class="medium-6 columns">
+  <p>Ulrike Schwertberger<br/>
+    Keinergasse 8/2/29<br/>
+    1030 Vienna
+  </p>
+</div>
+
+<div class="medium-6 columns">
+  <p><br/>
+    +43 650 95 66 420<br/>
+    <a href="mailto:ulrike.schwertberger@gmail.com"><span data-title="ulrike.schwertberger@gmail.com">ulrike.schwertberger@gmail.com</span></a>
+  </p>
+</div>
+</div>
+
+<div id="footer" class="row">
+  <div class="small-8 medium-4 columns ">  
+    <p><a href="#imprint" class="toggle-imprint"><span data-title="©2015" | Imprint">©2015 | Imprint</span></a></p>
+  </div>
+
+  <div class="small-4 medium-4 columns">  
+    <a target="_blank" href="https://www.behance.net/uchuujin"><img class="behance" alt="Behance Icon" src="assets/img/behance.png"/></a>
+  </div>
+
+  <div class="medium-4 columns">  
+    <a href="mailto:ulrike.schwertberger@gmail.com">ulrike.schwertberger@gmail.com</a>
+  </div>
+</div>
+
+<script src="assets/js/foundation.min.js"></script>
+<script src="assets/js/foundation/foundation.interchange.js"></script>
+<script src="assets/js/foundation/foundation.topbar.js"></script>
+<script>
+  $(document).foundation();
+
+</script>
+</body>
+</html>
