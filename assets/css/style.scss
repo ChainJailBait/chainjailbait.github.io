@@ -269,7 +269,8 @@ a{color:white;}
 				.detail{background-color:white;text-align:center;padding:40px 0;
 					.ik{background-color:$blau;width:650px;margin:0 auto 30px;}
 					img{width:650px;}
-					img:not(:last-child){margin:0 0 30px;}
+					img:not(:last-child){margin:0 0 30px;
+						color:black;}
 
 				}
 
